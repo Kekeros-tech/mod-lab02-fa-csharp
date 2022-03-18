@@ -22,19 +22,19 @@ namespace fans
             IsAcceptState = false,
             Transitions = new Dictionary<char, State>()
         };
-        public State b = new State()
+        public static State b = new State()
         {
             Name = "b",
             IsAcceptState = false,
             Transitions = new Dictionary<char, State>()
         };
-        public State c = new State()
+        public static State c = new State()
         {
             Name = "c",
             IsAcceptState = true,
             Transitions = new Dictionary<char, State>()
         };
-        public State d = new State()
+        public static State d = new State()
         {
             Name = "d",
             IsAcceptState = false,
@@ -76,19 +76,19 @@ namespace fans
             IsAcceptState = false,
             Transitions = new Dictionary<char, State>()
         };
-        public State b = new State()
+        public static State b = new State()
         {
             Name = "b",
             IsAcceptState = false,
             Transitions = new Dictionary<char, State>()
         };
-        public State c = new State()
+        public static State c = new State()
         {
             Name = "c",
             IsAcceptState = false,
             Transitions = new Dictionary<char, State>()
         };
-        public State d = new State()
+        public static State d = new State()
         {
             Name = "d",
             IsAcceptState = true,
@@ -130,13 +130,13 @@ namespace fans
             IsAcceptState = false,
             Transitions = new Dictionary<char, State>()
         };
-        public State b = new State()
+        public static State b = new State()
         {
             Name = "b",
             IsAcceptState = false,
             Transitions = new Dictionary<char, State>()
         };
-        public State c = new State()
+        public static State c = new State()
         {
             Name = "c",
             IsAcceptState = true,
